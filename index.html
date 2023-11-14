@@ -7,19 +7,121 @@
     <title>Tailwind CSS - custom components</title>
   </head>
   <body>
-    <h1 class="text-3xl bg-red-100">Tailwind CSS - custom components</h1>
+    <!-- Global Container -->
+    <div
+      class="bg-cyan-50 text-cyan-950 dark:bg-slate-800 dark:text-gray-100 min-h-screen pt-8"
+    >
+      <!-- Main Container -->
+      <div class="flex flex-col justify-center items-center">
+        <h1 class="my-4 text-3xl md:text-4xl font-thin text-center">
+          Tailwind CSS - custom components
+        </h1>
 
-    <a class="block" href="email-subscribe/subscribe-now.html"
-      >Subscribe component</a
-    >
-    <a class="block" href="pricing-cards/pricing.html">Pricing component</a>
-    <a class="block" href="product-modal/product-modal.html"
-      >Product component</a
-    >
-    <a class="block" href="image-gallery/gallery.html"
-      >Image gallery component</a
-    >
+        <div
+          class="w-1/2 border-b-2 border-cyan-300 dark:border-slate-400"
+        ></div>
 
-    <a class="block" href="login-modal/login.html">Login component</a>
+        <div
+          class="m-3 p-3 grid gap-3 md:gap-7 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5"
+        >
+          <!-- Card -->
+
+          <a
+            class="group block border border-cyan-900 dark:border-slate-700 rounded-md shadow-sm shadow-cyan-300 hover:shadow-lg hover:shadow-cyan-300 duration-150"
+            href="email-subscribe/subscribe-now.html"
+          >
+            <div
+              class="flex flex-col items-center rounded-md bg-cyan-100 hover:bg-cyan-200 dark:bg-transparent dark:hover:bg-transparent duration-150"
+            >
+              <img
+                class="w-64 object-fit rounded-t-md"
+                src="assets/images/email-subscribe.png"
+                alt=""
+              />
+              <span
+                class="px-2 py-4 font-medium group-hover:scale-125 duration-150"
+                >Subscribe</span
+              >
+            </div></a
+          >
+
+          <a
+            class="group block border border-cyan-900 dark:border-slate-700 rounded-md shadow-sm shadow-cyan-300 hover:shadow-lg hover:shadow-cyan-300 duration-150"
+            href="pricing-cards/pricing.html"
+          >
+            <div
+              class="flex flex-col items-center rounded-md bg-cyan-100 hover:bg-cyan-200 dark:bg-transparent dark:hover:bg-transparent duration-150"
+            >
+              <img
+                class="w-64 object-fit rounded-t-md"
+                src="assets/images/pricing-cards.png"
+                alt=""
+              />
+              <span
+                class="px-2 py-4 font-medium group-hover:scale-125 duration-150"
+                >Pricing</span
+              >
+            </div></a
+          >
+
+          <a
+            class="group block border border-cyan-900 dark:border-slate-700 rounded-md shadow-sm shadow-cyan-300 hover:shadow-lg hover:shadow-cyan-300 duration-150"
+            href="product-modal/product-modal.html"
+          >
+            <div
+              class="flex flex-col items-center rounded-md bg-cyan-100 hover:bg-cyan-200 dark:bg-transparent dark:hover:bg-transparent duration-150"
+            >
+              <img
+                class="w-64 object-fit rounded-t-md"
+                src="assets/images/product-modal.png"
+                alt=""
+              />
+              <span
+                class="px-2 py-4 font-medium group-hover:scale-125 duration-150"
+                >Product</span
+              >
+            </div></a
+          >
+
+          <a
+            class="group block border border-cyan-900 dark:border-slate-700 rounded-md shadow-sm shadow-cyan-300 hover:shadow-lg hover:shadow-cyan-300 duration-150"
+            href="image-gallery/gallery.html"
+          >
+            <div
+              class="flex flex-col items-center rounded-md bg-cyan-100 hover:bg-cyan-200 dark:bg-transparent dark:hover:bg-transparent duration-150"
+            >
+              <img
+                class="w-64 object-fit rounded-t-md"
+                src="assets/images/image-gallery.png"
+                alt=""
+              />
+              <span
+                class="px-2 py-4 font-medium group-hover:scale-125 duration-150"
+                >Image gallery</span
+              >
+            </div></a
+          >
+
+          <a
+            class="group block border border-cyan-900 dark:border-slate-700 rounded-md shadow-sm shadow-cyan-300 hover:shadow-lg hover:shadow-cyan-300 duration-150"
+            href="login-modal/login.html"
+          >
+            <div
+              class="flex flex-col items-center rounded-md bg-cyan-100 hover:bg-cyan-200 dark:bg-transparent dark:hover:bg-transparent duration-150"
+            >
+              <img
+                class="w-64 object-fit rounded-t-md"
+                src="assets/images/login-modal.png"
+                alt=""
+              />
+              <span
+                class="px-2 py-4 font-medium group-hover:scale-125 duration-150"
+                >Login</span
+              >
+            </div></a
+          >
+        </div>
+      </div>
+    </div>
   </body>
 </html>
